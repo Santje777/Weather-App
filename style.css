@@ -43,7 +43,7 @@ h5 {
   font-size: 50px;
   position: relative;
   top: -60px;
-  left: 125px;
+  left: 425px;
 }
 
 .fahrenheit {
@@ -51,7 +51,7 @@ h5 {
   font-size: 50px;
   position: relative;
   top: -60px;
-  left: 125px;
+  left: 425px;
 }
 
 .card-title {
@@ -61,6 +61,8 @@ h5 {
 .card-one {
   background: rgb(231, 100, 100);
   max-width: 700px;
+  position: relative;
+  top: 20px;
 }
 .card-two {
   background: rgb(248, 186, 40);
@@ -126,7 +128,7 @@ h5 {
 .input-one {
   position: relative;
   left: 30px;
-  top: -20px;
+  top: -30px;
   width: 190px;
 }
 .input-two {
@@ -146,4 +148,11 @@ h5 {
   display: block;
   position: relative;
   top: -70px;
+}
+
+.link-to-github {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 400px;
 }
