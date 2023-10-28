@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card card-one">
+        <div class="card-body">
+          <h1 id="place">plaats</h1>
+          <h1 id="current-date">vandaag</h1>
+          <h2 class="temperature" id="current-temperature">
+            huidige temperatuur
+          </h2>
+          <a class="celcius" id="celcius-link"> °C | </a>
+          <a class="fahrenheit" id="fahrenheit-link"> °F </a>
+          <div class="card card-one-screen" id="extra">
+            <div class="card-body"></div>
+          </div>
+        </div>
+        <form class="input-one" id="search-form" id="space-place">
+          <input type="search" placeholder="Type a place..." width: 10px; id=
+          "space-place"/>
+          <input
+            type="submit"
+            value="weather 🔎"
+            class="form-control btn btn-primary shadow-sm"
+          />
+        </form>
+        <div class="col-3 current-location-button" id="current-location">
+          <button class="btn btn-success shadow-sm">Current location 🌐</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card card-two">
+          <div class="card-body">
+            <h2 class="card-title">Morgen</h2>
+            <h3 class="card-text">17 graden</h3>
+            <div class="card card-two-screen">
+              <div class="card-body"></div>
+            </div>
+            <form class="input-two">
+              <input type="search" placeholder="lekker koel" />
+              <input
+                type="submit"
+                value="weather"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </form>
+            <div class="card-body emojis">😄💭💬💢💥💦💨💤</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card card-three">
+          <div class="card-body">
+            <h2 class="card-title">Overmorgen</h2>
+            <h3 class="card-text">21 graden</h3>
+            <div class="card card-three-screen">
+              <div class="card-body"></div>
+            </div>
+            <form class="input-two">
+              <input type="search" placeholder="lekker koel" />
+              <input
+                type="submit"
+                value="weer"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </form>
+            <div class="card-body emojis">😄💭💬💥💨</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card card-four">
+          <div class="card-body">
+            <h4 class="card-title">De dag daarna</h4>
+            <h5 class="card-text">16 graden</h5>
+            <div class="card card-four-screen">
+              <div class="card-body"></div>
+            </div>
+            <form class="input-two">
+              <input type="search" placeholder="lekker koel" />
+              <input
+                type="submit"
+                value="weer"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </form>
+            <div class="card-body emojis">😄💭💬💢💥💦💨💤</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card card-five">
+          <div class="card-body">
+            <h4 class="card-title">De dag na de dag daarna</h4>
+            <h5 class="card-text">20 graden</h5>
+            <form class="input-two">
+              <input type="search" placeholder="lekker koel" />
+              <input
+                type="submit"
+                value="weer"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </form>
+            <div class="card-body emojis">😄💭💬💢💥💦💨💤</div>
+            <div class="card card-five-screen">
+              <div class="card-body"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

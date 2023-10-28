@@ -1,0 +1,149 @@
+body {
+  text-align: left;
+  margin: 20px auto;
+  display: block;
+  width: 700px;
+  background: linear-gradient(to left, rgb(60, 179, 250), rgb(253, 216, 81));
+}
+
+h1 {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: rgb(149, 25, 8);
+  font-size: 40px;
+}
+
+h2 {
+  color: rgb(255, 192, 46);
+}
+
+h3 {
+  color: green;
+}
+
+h4.card-title {
+  color: rgba(55, 43, 226, 0.8);
+}
+
+h5 {
+  color: purple;
+}
+
+.temperature {
+  color: rgb(255, 192, 46);
+  font-size: 70px;
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+
+.celcius {
+  color: rgb(255, 192, 46);
+  font-size: 50px;
+  position: relative;
+  top: -60px;
+  left: 125px;
+}
+
+.fahrenheit {
+  color: blue;
+  font-size: 50px;
+  position: relative;
+  top: -60px;
+  left: 125px;
+}
+
+.card-title {
+  color: yellow;
+}
+
+.card-one {
+  background: rgb(231, 100, 100);
+  max-width: 700px;
+}
+.card-two {
+  background: rgb(248, 186, 40);
+  position: relative;
+  left: 12px;
+}
+.card-three {
+  background: rgb(15, 224, 43);
+  position: relative;
+  left: -12px;
+}
+.card-four {
+  background: rgb(106, 156, 192);
+  max-width: 100%;
+  position: relative;
+  left: 12px;
+}
+.card-five {
+  background: rgb(175, 78, 175);
+  max-width: 100%;
+  position: relative;
+  left: -12px;
+}
+
+.card-one-screen {
+  display: block;
+  position: relative;
+  padding: 10px;
+  max-width: 500px;
+  top: -50px;
+  left: 0px;
+  font-size: 30px;
+  color: rgb(149, 25, 8);
+}
+.card-two-screen {
+  display: block;
+  position: absolute;
+  padding: 50px;
+  top: 20px;
+  left: 180px;
+}
+.card-three-screen {
+  display: block;
+  position: absolute;
+  padding: 50px;
+  top: 20px;
+  left: 180px;
+}
+.card-four-screen {
+  display: block;
+  position: absolute;
+  padding: 50px;
+  top: 20px;
+  left: 180px;
+}
+.card-five-screen {
+  display: block;
+  position: absolute;
+  padding: 35px;
+  top: 50px;
+  left: 190px;
+}
+.input-one {
+  position: relative;
+  left: 30px;
+  top: -20px;
+  width: 190px;
+}
+.input-two {
+  position: relative;
+  top: 70px;
+  width: 190px;
+}
+
+.current-location-button {
+  display: block;
+  position: absolute;
+  left: 470px;
+  top: 100px;
+}
+
+.emojis {
+  display: block;
+  position: relative;
+  top: -70px;
+}
